@@ -42,6 +42,7 @@ Framework functionality
 | [test.check](https://github.com/clojure/test.check)               | Clojure       | :heavy_check_mark: | :heavy_check_mark: | ?             | ?              |
 | [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua           | :heavy_check_mark: | ?                  | :heavy_check_mark:           | ?              |
 | [theft](https://github.com/silentbicycle/theft)                   | C             | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/blob/master/doc/shrinking.md#auto-shrinking)     | ?             | ?              |
+| [DeepState](https://github.com/trailofbits/deepstate)                   | C / C++             | :heavy_check_mark: | :heavy_check_mark:    |               |               |
 | ... 
 
 **Legend:**
