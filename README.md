@@ -23,26 +23,26 @@ Framework functionality
 |:------------------------------------------------------------------|:--------------|:------------------:|:------------------:|:----------------:|:--------------:|
 | [QuickCheck](http://www.quviq.com/products/erlang-quickcheck/)    | Erlang        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [PropEr](https://github.com/proper-testing/proper)                | Erlang        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| [QuickCheck](https://github.com/nick8325/quickcheck)              | Haskell       | :heavy_check_mark: |                    | [(:heavy_check_mark:)](https://github.com/advancedtelematic/quickcheck-state-machine) | [(:heavy_check_mark:)](https://github.com/advancedtelematic/quickcheck-state-machine)          |
-| [Hedgehog](https://github.com/hedgehogqa/haskell-hedgehog)        | Haskell       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:           | :heavy_check_mark:            |
-| [Scala-Hedgehog](https://github.com/hedgehogqa/scala-hedgehog)    | Scala         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:             | :heavy_check_mark:              |
-| [R-Hedgehog](https://github.com/hedgehogqa/r-hedgehog)            | R             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:           |                |
-| [FSharp-Hedgehog](https://github.com/hedgehogqa/fsharp-hedgehog)  | F#            | :heavy_check_mark: | :heavy_check_mark: |               |                |
-| [Hypothesis](https://github.com/HypothesisWorks/hypothesis)       | Python        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:           |                |
-| [ScalaCheck](https://github.com/typelevel/scalacheck)             | Scala         | :heavy_check_mark: |                    | :heavy_check_mark:           | :heavy_check_mark:         |
-| [gopter](https://github.com/leanovate/gopter)                     | Go            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:           |                |
-| [propCheck](https://github.com/1Jajen1/propCheck)	            | Kotlin  	    | :heavy_check_mark: | ?	 	      | :heavy_check_mark:		| :heavy_check_mark:		 |
-| [FsCheck](https://fscheck.github.io/FsCheck/index.html)           | F# / .Net     | :heavy_check_mark: |                    | :heavy_check_mark:           |                |
-| [fast-check](https://github.com/dubzzz/fast-check)                | JS/TS         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:           | ?              |
+| [QuickCheck](https://github.com/nick8325/quickcheck)              | Haskell       | :heavy_check_mark: |                    | [(:heavy_check_mark:)](https://github.com/advancedtelematic/quickcheck-state-machine) | [(:heavy_check_mark:)](https://github.com/advancedtelematic/quickcheck-state-machine) |
+| [Hedgehog](https://github.com/hedgehogqa/haskell-hedgehog)        | Haskell       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| [Scala-Hedgehog](https://github.com/hedgehogqa/scala-hedgehog)    | Scala / JVM   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| [R-Hedgehog](https://github.com/hedgehogqa/r-hedgehog)            | R             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
+| [FSharp-Hedgehog](https://github.com/hedgehogqa/fsharp-hedgehog)  | F# / .Net     | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
+| [Hypothesis](https://github.com/HypothesisWorks/hypothesis)       | Python        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
+| [ScalaCheck](https://github.com/typelevel/scalacheck)             | Scala / JVM   | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
+| [gopter](https://github.com/leanovate/gopter)                     | Go            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
+| [propCheck](https://github.com/1Jajen1/propCheck)	            | Kotlin  	    | :heavy_check_mark: | ?	 	      | :heavy_check_mark: | :heavy_check_mark: |
+| [FsCheck](https://fscheck.github.io/FsCheck/index.html)           | F# / .Net     | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
+| [fast-check](https://github.com/dubzzz/fast-check)                | JS / TS       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | ?                  |
 | [QCheck](https://github.com/c-cube/qcheck)                        | OCaml         | :heavy_check_mark: |                    | [(:heavy_check_mark:)](https://github.com/jmid/qcstm)         |                |
 | [QuickTheories](https://github.com/quicktheories/QuickTheories)   | Java          | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42)         | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42)          |
-| [jqwik](https://jqwik.net/)                                       | Java          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:           | ?              |
-| [Fox](https://github.com/jeffh/Fox)                               | Obj.C / Swift | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:           | [(:heavy_check_mark:)](https://github.com/jeffh/Fox/pull/28)              |
-| [RapidCheck](https://github.com/emil-e/rapidcheck/)               | C++           | :heavy_check_mark: |                    | :heavy_check_mark:           | ?              |
-| [test.check](https://github.com/clojure/test.check)               | Clojure       | :heavy_check_mark: | :heavy_check_mark: | ?             | ?              |
-| [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua           | :heavy_check_mark: | ?                  | :heavy_check_mark:           | ?              |
-| [theft](https://github.com/silentbicycle/theft)                   | C             | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/blob/master/doc/shrinking.md#auto-shrinking)     | ?             | ?              |
-| [DeepState](https://github.com/trailofbits/deepstate)                   | C / C++             | :heavy_check_mark: | :heavy_check_mark:    |               |               |
+| [jqwik](https://jqwik.net/)                                       | Java          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | ?                  |
+| [Fox](https://github.com/jeffh/Fox)                               | Obj.C / Swift | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/jeffh/Fox/pull/28)              |
+| [RapidCheck](https://github.com/emil-e/rapidcheck/)               | C++           | :heavy_check_mark: |                    | :heavy_check_mark: | ?                  |
+| [test.check](https://github.com/clojure/test.check)               | Clojure       | :heavy_check_mark: | :heavy_check_mark: | ?                  | ?                  |
+| [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua           | :heavy_check_mark: | ?                  | :heavy_check_mark: | ?                  |
+| [theft](https://github.com/silentbicycle/theft)                   | C             | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/blob/master/doc/shrinking.md#auto-shrinking)   | ?                  | ?                  |
+| [DeepState](https://github.com/trailofbits/deepstate)             | C / C++       | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
 | ... 
 
 **Legend:**
