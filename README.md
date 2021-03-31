@@ -2,7 +2,7 @@ Overview of Property-Based Testing Functionality
 ================================================
 
 Property-based testing (PBT) frameworks come with a number of
-different features, but which library supports which features?  
+different features, but which library supports which features?
 For a PBT newcomer, it can be hard to tell.
 - To test an imperative API a framework with state machine support would be nice.
 - Integrated shrinking can be a nice feature for bigger developments
