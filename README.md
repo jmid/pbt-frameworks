@@ -42,6 +42,7 @@ Framework functionality
 | [test.check](https://github.com/clojure/test.check)               | Clojure       | :heavy_check_mark: | :heavy_check_mark: | ?             | ?              |
 | [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua           | :heavy_check_mark: | ?                  | :heavy_check_mark:           | ?              |
 | [theft](https://github.com/silentbicycle/theft)                   | C             | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/blob/master/doc/shrinking.md#auto-shrinking)     | ?             | ?              |
+| [DeepState](https://github.com/trailofbits/deepstate)                   | C / C++             | :heavy_check_mark: | :heavy_check_mark:    |               |               |
 | ... 
 
 **Legend:**
@@ -65,6 +66,7 @@ PBT was originally introduced in [*'QuickCheck: A Lightweight Tool for Random Te
  - [a blog post by Edsko de Vries with pro/cons](https://www.well-typed.com/blog/2019/05/integrated-shrinking/)
  - [McIver's Hypothesis article advocating the approach](https://hypothesis.works/articles/integrated-shrinking/)
  - [*'Test-Case Reduction via Test-Case Generation: Insights From the Hypothesis Reducer'* by MacIver and Donaldson (ECOOP 2020)](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2020/ECOOP_Hypothesis.pdf)
+ - [Everything You Ever Wanted to Know About Test-Case Reduction, But Didn’t Know to Ask](https://blog.trailofbits.com/2019/11/11/test-case-reduction/)
 
 
 **State machines** to test protocols and systems with state are described in
