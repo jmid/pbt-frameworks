@@ -66,7 +66,7 @@ PBT was originally introduced in [*'QuickCheck: A Lightweight Tool for Random Te
  - [a blog post by Edsko de Vries with pro/cons](https://www.well-typed.com/blog/2019/05/integrated-shrinking/)
  - [McIver's Hypothesis article advocating the approach](https://hypothesis.works/articles/integrated-shrinking/)
  - [*'Test-Case Reduction via Test-Case Generation: Insights From the Hypothesis Reducer'* by MacIver and Donaldson (ECOOP 2020)](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2020/ECOOP_Hypothesis.pdf)
- - [Everything You Ever Wanted to Know About Test-Case Reduction, But Didn’t Know to Ask](https://blog.trailofbits.com/2019/11/11/test-case-reduction/)
+ - [Everything You Ever Wanted to Know About Test-Case Reduction, But Didn’t Know to Ask](https://blog.trailofbits.com/2019/11/11/test-case-reduction/) - describing DeepState's reducer/shrinker
 
 
 **State machines** to test protocols and systems with state are described in
@@ -74,6 +74,8 @@ PBT was originally introduced in [*'QuickCheck: A Lightweight Tool for Random Te
  - [*'Testing Telecoms Software with Quviq QuickCheck'* Arts, Hughes, and Johansson (Erlang 2006)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf) - which describes Erlang's first `eqc_commands` module
  - [*'QuickCheck Testing for Fun and Profit'* by Hughes (PADL 2007)](https://people.inf.elte.hu/center/fulltext.pdf)  describes a later revision 
  - [the API documentation of Quviq's latest (commercial) version](http://quviq.com/documentation/eqc/)
+ - [*'A Note on State-Machine Frameworks for Property-Based Testing'*](https://janmidtgaard.dk/quickcheck/stmnote.pdf) - a tutorial which reconstructs `qcstm` for OCaml
+
 
 **Parallel state-machine tests** for race conditions were later introduced in
  - [*'Finding Race Conditions in Erlang with QuickCheck and PULSE'* by Claessen et al. (ICFP 2009)](https://smallbone.se/papers/finding-race-conditions.pdf) -- along with a scheduler and a process visualizer
