@@ -38,6 +38,7 @@ Framework functionality
 | [QuickTheories](https://github.com/quicktheories/QuickTheories)   | Java          | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42)         | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42)          |
 | [jqwik](https://jqwik.net/)                                       | Java          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | ?                  |
 | [Fox](https://github.com/jeffh/Fox)                               | Obj.C / Swift | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/jeffh/Fox/pull/28)              |
+| [SwiftCheck](https://github.com/typelift/SwiftCheck)              | Swift         | :heavy_check_mark: |                    |                    |                    |
 | [RapidCheck](https://github.com/emil-e/rapidcheck/)               | C++           | :heavy_check_mark: |                    | :heavy_check_mark: | ?                  |
 | [test.check](https://github.com/clojure/test.check)               | Clojure       | :heavy_check_mark: | :heavy_check_mark: | ?                  | ?                  |
 | [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua           | :heavy_check_mark: | ?                  | :heavy_check_mark: | ?                  |
