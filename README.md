@@ -28,7 +28,7 @@ Framework functionality
 | [Scala-Hedgehog](https://github.com/hedgehogqa/scala-hedgehog)    | Scala / JVM   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [R-Hedgehog](https://github.com/hedgehogqa/r-hedgehog)            | R             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
 | [FSharp-Hedgehog](https://github.com/hedgehogqa/fsharp-hedgehog)  | F# / .Net     | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| [Hypothesis](https://github.com/HypothesisWorks/hypothesis)       | Python        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
+| [Hypothesis](https://github.com/HypothesisWorks/hypothesis)       | Python        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://pypi.org/project/hypothesis-trio/) |
 | [ScalaCheck](https://github.com/typelevel/scalacheck)             | Scala / JVM   | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
 | [gopter](https://github.com/leanovate/gopter)                     | Go            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
 | [propCheck](https://github.com/1Jajen1/propCheck)	            | Kotlin  	    | :heavy_check_mark: | ?	 	      | :heavy_check_mark: | :heavy_check_mark: |
