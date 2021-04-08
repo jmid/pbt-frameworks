@@ -43,6 +43,7 @@ Framework functionality
 | [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua           | :heavy_check_mark: | ?                  | :heavy_check_mark:           | ?              |
 | [theft](https://github.com/silentbicycle/theft)                   | C             | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/blob/master/doc/shrinking.md#auto-shrinking)     | ?             | ?              |
 | [DeepState](https://github.com/trailofbits/deepstate)                   | C / C++             | :heavy_check_mark: | :heavy_check_mark:    |               |               |
+| [Echidna](https://github.com/crytic/echidna)                   | Solidity / EVM             | :heavy_check_mark: | :heavy_check_mark:    |               |               |
 | ... 
 
 **Legend:**
