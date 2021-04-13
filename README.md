@@ -31,7 +31,7 @@ Framework functionality
 | [Hypothesis](https://github.com/HypothesisWorks/hypothesis)       | Python         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://pypi.org/project/hypothesis-trio/)<sup>1</sup> |
 | [ScalaCheck](https://github.com/typelevel/scalacheck)             | Scala / JVM    | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
 | [gopter](https://github.com/leanovate/gopter)                     | Go             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
-| [propCheck](https://github.com/1Jajen1/propCheck)	                | Kotlin  	     | :heavy_check_mark: | ?	 	      | :heavy_check_mark: | :heavy_check_mark: |
+| [propCheck](https://github.com/1Jajen1/propCheck)	                | Kotlin  	     | :heavy_check_mark: | ?	 	               | :heavy_check_mark: | :heavy_check_mark: |
 | [FsCheck](https://fscheck.github.io/FsCheck/index.html)           | F# / .Net      | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
 | [fast-check](https://github.com/dubzzz/fast-check)                | JS / TS        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/dubzzz/fast-check/blob/main/documentation/Tips.md#detect-race-conditions)<sup>1</sup> |
 | [QCheck](https://github.com/c-cube/qcheck)                        | OCaml          | :heavy_check_mark: |                    | [(:heavy_check_mark:)](https://github.com/jmid/qcstm)         |                |
@@ -41,7 +41,7 @@ Framework functionality
 | [SwiftCheck](https://github.com/typelift/SwiftCheck)              | Swift          | :heavy_check_mark: |                    |                    |                    |
 | [RapidCheck](https://github.com/emil-e/rapidcheck/)               | C++            | :heavy_check_mark: |                    | :heavy_check_mark: | ?                  |
 | [test.check](https://github.com/clojure/test.check)               | Clojure        | :heavy_check_mark: | :heavy_check_mark: | ?                  | ?                  |
-| [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua            | :heavy_check_mark: | ?                  | :heavy_check_mark: | ?                  |
+| [Lua-QuickCheck](https://github.com/luc-tielen/lua-quickcheck)    | Lua            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | ?                  |
 | [theft](https://github.com/silentbicycle/theft)                   | C              | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/blob/master/doc/shrinking.md#auto-shrinking) | ?                  | ?                  |
 | [DeepState](https://github.com/trailofbits/deepstate)             | C / C++        | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
 | [Echidna](https://github.com/crytic/echidna)                      | Solidity / EVM | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
