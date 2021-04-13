@@ -35,6 +35,7 @@ Framework functionality
 | [FsCheck](https://fscheck.github.io/FsCheck/index.html)           | F# / .Net      | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
 | [fast-check](https://github.com/dubzzz/fast-check)                | JS / TS        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/dubzzz/fast-check/blob/main/documentation/Tips.md#detect-race-conditions)<sup>1</sup> |
 | [QCheck](https://github.com/c-cube/qcheck)                        | OCaml          | :heavy_check_mark: | :heavy_check_mark: |                    | [(:heavy_check_mark:)](https://github.com/jmid/qcstm) |                |
+| [Crowbar](https://github.com/stedolan/crowbar)                    | OCaml          | :heavy_check_mark: | :heavy_check_mark: | ?                  |                    |                    |
 | [QuickTheories](https://github.com/quicktheories/QuickTheories)   | Java           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42) | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42) |
 | [jqwik](https://jqwik.net/)                                       | Java           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  ?                 |
 | [Fox](https://github.com/jeffh/Fox)                               | Obj.C / Swift  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/jeffh/Fox/pull/28) |
@@ -48,7 +49,7 @@ Framework functionality
 | ... 
 
 **Legend:**
- - **Language** denotes the framworks's language or platform 
+ - **Language** denotes the frameworks's language or platform
  - **Generator EDSL** denotes whether the framework has an expressive, embedded domain-specific language for programming custom generators (`int`, `list`, `map`, ...)
  - **Shrinking** denotes whether the framework has built-in support for reducing counterexamples.
  - **Integrated shrinking** denotes whether a shrinker automatically preserves any invariants of an EDSL-based custom generator (sorted lists, non-empty array, valid JSON, ...)
