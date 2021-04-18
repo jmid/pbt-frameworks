@@ -29,7 +29,7 @@ I'll be happy to accept PRs for updating entries and adding new frameworks.
 Framework functionality
 -----------------------
 
-| Framework                                                         | Language       | Gen. EDSL          | Shrinking          | Int. shr.          | State machine      | Par. st. mach.     | Cov.guidance       |
+| Framework                                                         | Language       | Gen. EDSL          | Shrinking          | Int. shr.          | State machine      | Par. st. mach.     | Cov. guidance      |
 |:------------------------------------------------------------------|:---------------|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
 | [QuickCheck](http://www.quviq.com/products/erlang-quickcheck/)    | Erlang         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
 | [PropEr](https://github.com/proper-testing/proper)                | Erlang         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
@@ -70,8 +70,8 @@ Framework functionality
 
  **Footnotes**
   - <sup>1</sup> [Hypothesis](https://github.com/HypothesisWorks/hypothesis) and [fast-check](https://github.com/dubzzz/fast-check) support asynchronous state machine testing, which can find race conditions (although it is strictly speaking not using parallel testing).
-  - <sup>2</sup> [TSTL](https://github.com/agroce/tstl) instead uses an *external DSL*
-  - <sup>3</sup> Crowbar uses AFL which [trims each test input as part of its core generic algorithm](https://lcamtuf.coredump.cx/afl/README.txt). In addition Crowbar supports test case reduction via `afl-tmin` [which is unaware of (and hence may break) OCaml typing](https://tarides.com/blog/2020-08-03-fuzzing-ocamlformat-with-afl-and-crowbar)
+  - <sup>2</sup> [TSTL](https://github.com/agroce/tstl) instead uses an *external DSL*.
+  - <sup>3</sup> Crowbar uses AFL which [trims each test input as part of its core generic algorithm](https://lcamtuf.coredump.cx/afl/README.txt). In addition Crowbar supports test case reduction via `afl-tmin` [which is unaware of (and hence may break) OCaml typing](https://tarides.com/blog/2020-08-03-fuzzing-ocamlformat-with-afl-and-crowbar).
 
 
 Background:
