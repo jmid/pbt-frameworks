@@ -109,7 +109,7 @@ The approach was popularized as an embedded domain-specific language in [*'Quick
 
 **Parallel state-machine tests** for race conditions were later introduced in
  - [*'Finding Race Conditions in Erlang with QuickCheck and PULSE'* by Claessen et al. (ICFP 2009)](https://smallbone.se/papers/finding-race-conditions.pdf) -- along with a scheduler and a process visualizer
- - *'Testing Telecoms Software with Quviq QuickCheck'* by Hughes and Bolinder (Erlang 2011)
+ - *'Testing a Database for Race Conditions with QuickCheck'* by Hughes and Bolinder (Erlang 2011)
 
 
 Additional resources:
