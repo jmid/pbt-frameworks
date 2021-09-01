@@ -48,11 +48,15 @@ Framework functionality
 | [FsCheck](https://fscheck.github.io/FsCheck/index.html)           | F# / .Net      | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: |                    |                    |
 | [CsCheck](https://github.com/AnthonyLloyd/CsCheck)                | C# / .Net      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
 | [fast-check](https://github.com/dubzzz/fast-check)                | JS / TS        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/dubzzz/fast-check/blob/main/documentation/Tips.md#detect-race-conditions)<sup>2</sup> |                    |
-| [QCheck](https://github.com/c-cube/qcheck)                        | OCaml          | :heavy_check_mark: | :heavy_check_mark: |                    | [(:heavy_check_mark:)](https://github.com/jmid/qcstm) |                |                    |
+| [QCheck](https://github.com/c-cube/qcheck)                        | OCaml          | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/c-cube/qcheck/pull/116) | [(:heavy_check_mark:)](https://github.com/jmid/qcstm) |                |                    |
 | [Crowbar](https://github.com/stedolan/crowbar)                    | OCaml          | :heavy_check_mark: | (:heavy_check_mark:)<sup>4</sup> |                    |                    |                    | :heavy_check_mark: |
+| [Base_quickcheck](https://opensource.janestreet.com/base_quickcheck) | OCaml       | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
+| [Popper](https://github.com/jobjo/popper)                         | OCaml          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |
 | [junit-quickcheck](https://github.com/pholser/junit-quickcheck)   | Java           | :heavy_check_mark: | :heavy_check_mark: | | | | [(:heavy_check_mark:)](https://github.com/rohanpadhye/JQF)<sup>5</sup> |
 | [QuickTheories](https://github.com/quicktheories/QuickTheories)   | Java           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42) | [(:heavy_check_mark:)](https://github.com/quicktheories/QuickTheories/issues/42) | [:heavy_check_mark:](https://github.com/quicktheories/QuickTheories#coverage-guidance) |
 | [jqwik](https://jqwik.net/)                                       | Java           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
+| [quickcheck](https://github.com/burntsushi/quickcheck)            | Rust           | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
+| [propcheck](https://github.com/AltSysrq/proptest)                 | Rust           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |
 | [Fox](https://github.com/jeffh/Fox)                               | Obj.C / Swift  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/jeffh/Fox/pull/28) |                     |
 | [SwiftCheck](https://github.com/typelift/SwiftCheck)              | Swift          | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
 | [RapidCheck](https://github.com/emil-e/rapidcheck/)               | C++            | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/emil-e/rapidcheck/issues/47) |                    |
@@ -61,7 +65,7 @@ Framework functionality
 | [theft](https://github.com/silentbicycle/theft)                   | C              | (:heavy_check_mark:) | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/blob/master/doc/shrinking.md#auto-shrinking) |                    |                    | [(:heavy_check_mark:)](https://github.com/silentbicycle/theft/issues/43) |
 | [DeepState](https://github.com/trailofbits/deepstate)             | C / C++        | (:heavy_check_mark:) | :heavy_check_mark: | :heavy_check_mark: |                    |                    | :heavy_check_mark: |
 | [Echidna](https://github.com/crytic/echidna)                      | Solidity / EVM |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: |
-| ... 
+| ...
 
 **Legend:**
  - **Language** denotes the frameworks's language or platform
@@ -69,7 +73,7 @@ Framework functionality
  - **Shrinking** denotes whether the framework has built-in support for reducing counterexamples.
  - **Integrated shrinking** denotes whether a shrinker automatically preserves any invariants of an EDSL-based custom generator (sorted lists, non-empty array, valid JSON, ...)
  - **State machine** denotes whether the framework has a state-machine library for model-based testing.
- - **Parallel state machine** denotes whether the framework supports parallel state-machine testing for race conditons, etc.  
+ - **Parallel state machine** denotes whether the framework supports parallel state-machine testing for race conditons, etc.
  - **Coverage guidance** denotes whether the framework's generators (and shrinkers) can be guided by code coverage information obtained via instrumentation.
 
  **Footnotes**
@@ -82,7 +86,7 @@ Framework functionality
 Background:
 -----------
 
-The term *property-based testing* seems to originate from [*'Property-Based Testing; A New Approach to Testing for Assurance'* by Fink and Bishop (SE Notes 1997)](http://nob.cs.ucdavis.edu/~bishop/papers/1997-sen/pbt.pdf).  
+The term *property-based testing* seems to originate from [*'Property-Based Testing; A New Approach to Testing for Assurance'* by Fink and Bishop (SE Notes 1997)](http://nob.cs.ucdavis.edu/~bishop/papers/1997-sen/pbt.pdf).
 The approach was popularized as an embedded domain-specific language in [*'QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs'* by Claessen and Hughes (ICFP 2000)](http://www.eecs.northwestern.edu/%7Erobby/courses/395-495-2009-fall/quick.pdf) which inspired ports to many other languages.
 
 **Integrated shrinking** is explained in more detail in
@@ -98,15 +102,15 @@ The approach was popularized as an embedded domain-specific language in [*'Quick
 **State machines** to test protocols and systems with state are described in
  - [*'Testing reactive systems with GAST'* by Koopman and Plasmeijer (TFP 2003, revised 2005)](https://repository.ubn.ru.nl/bitstream/handle/2066/60573/60573.pdf?sequence=1) - which describes a model-based framework for Clean's Gast library
  - [*'Testing Telecoms Software with Quviq QuickCheck'* Arts, Hughes, and Johansson (Erlang 2006)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf) - which describes Erlang's first `eqc_commands` module
- - [*'QuickCheck Testing for Fun and Profit'* by Hughes (PADL 2007)](https://people.inf.elte.hu/center/fulltext.pdf)  describes a later revision 
+ - [*'QuickCheck Testing for Fun and Profit'* by Hughes (PADL 2007)](https://people.inf.elte.hu/center/fulltext.pdf)  describes a later revision
  - [the API documentation of Quviq's latest (commercial) version](http://quviq.com/documentation/eqc/)
  - [*'A Note on State-Machine Frameworks for Property-Based Testing'*](https://janmidtgaard.dk/quickcheck/stmnote.pdf) - a tutorial which reconstructs `qcstm` for OCaml
 
 
 **Parallel state-machine tests** for race conditions were later introduced in
  - [*'Finding Race Conditions in Erlang with QuickCheck and PULSE'* by Claessen et al. (ICFP 2009)](https://smallbone.se/papers/finding-race-conditions.pdf) -- along with a scheduler and a process visualizer
- - *'Testing Telecoms Software with Quviq QuickCheck'* by Hughes and Bolinder (Erlang 2011)
-   
+ - *'Testing a Database for Race Conditions with QuickCheck'* by Hughes and Bolinder (Erlang 2011)
+
 
 Additional resources:
 ---------------------
