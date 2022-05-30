@@ -50,6 +50,7 @@ Framework functionality
 | [fast-check](https://github.com/dubzzz/fast-check)                | JS / TS        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/dubzzz/fast-check/blob/main/documentation/Tips.md#detect-race-conditions)<sup>2</sup> |                    |
 | [QCheck](https://github.com/c-cube/qcheck)                        | OCaml          | :heavy_check_mark: | :heavy_check_mark: | [(:heavy_check_mark:)](https://github.com/c-cube/qcheck/pull/116) | [(:heavy_check_mark:)](https://github.com/jmid/qcstm) |                |                    |
 | [Crowbar](https://github.com/stedolan/crowbar)                    | OCaml          | :heavy_check_mark: | (:heavy_check_mark:)<sup>4</sup> |                    |                    |                    | :heavy_check_mark: |
+| [Monolith](https://gitlab.inria.fr/fpottier/monolith)             | OCaml          | :heavy_check_mark: | (:heavy_check_mark:)<sup>4</sup> |                    |                    |                    | :heavy_check_mark: |
 | [Base_quickcheck](https://opensource.janestreet.com/base_quickcheck) | OCaml       | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
 | [Popper](https://github.com/jobjo/popper)                         | OCaml          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |
 | [junit-quickcheck](https://github.com/pholser/junit-quickcheck)   | Java           | :heavy_check_mark: | :heavy_check_mark: | | | | [(:heavy_check_mark:)](https://github.com/rohanpadhye/JQF)<sup>5</sup> |
@@ -80,7 +81,7 @@ Framework functionality
   - <sup>1</sup> Contrary to QuickCheck and its descendants, [SmallCheck's generators enumerate values starting from the smallest ones (up to some bound)](https://github.com/Bodigrim/smallcheck/wiki/Comparison-with-QuickCheck). SmallCheck will therefore encounter a minimal counterexample first and hence doesn't require shrinking.
   - <sup>2</sup> [Hypothesis](https://github.com/HypothesisWorks/hypothesis) and [fast-check](https://github.com/dubzzz/fast-check) support asynchronous state machine testing, which can find race conditions (although it is strictly speaking not using parallel testing).
   - <sup>3</sup> [TSTL](https://github.com/agroce/tstl) instead uses an *external DSL*.
-  - <sup>4</sup> Crowbar uses AFL which [trims each test input as part of its core genetic algorithm](https://lcamtuf.coredump.cx/afl/README.txt). In addition Crowbar supports test case reduction via `afl-tmin` [which is unaware of (and hence may break) OCaml typing](https://tarides.com/blog/2020-08-03-fuzzing-ocamlformat-with-afl-and-crowbar).
+  - <sup>4</sup> Crowbar and Monolith both use AFL which [trims each test input as part of its core genetic algorithm](https://lcamtuf.coredump.cx/afl/README.txt). In addition they support test case reduction via `afl-tmin` [which is unaware of (and hence may break) OCaml typing](https://tarides.com/blog/2020-08-03-fuzzing-ocamlformat-with-afl-and-crowbar).
   - <sup>5</sup> JQF and the underlying Zest [supports multiple forms feedback guidance beyond coverage](https://github.com/rohanpadhye/jqf/wiki/The-Guidance-interface).
 
 Background:
