@@ -11,7 +11,8 @@ However a framework provides reusable parts and infrastructure, thus paving the 
 [property-based testing automotive software against the AUTOSAR specification](https://www.youtube.com/watch?v=zi0rHwfiX1Q).
 
 
-
+- When finding a counterexample shrinking is nice to get to the
+  essence of an issue
 - To test an imperative API a framework with state machine support would be nice.
 - Integrated shrinking can be a nice feature for bigger developments
   where writing custom shrinkers may be out of the question.
