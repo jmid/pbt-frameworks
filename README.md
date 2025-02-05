@@ -123,6 +123,7 @@ The approach was popularized as an embedded domain-specific language in [*'Quick
 
 
 **Parallel state-machine tests** for race conditions were later introduced in
+ - [*'QuickCheck Testing for Fun and Profit'* by Hughes (PADL 2007)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5ae25681ff881430797268c5787d7d9ee6cf542c) - Sec.8 mentions running 2 parallel command sequences and a property searching for an interleaving
  - [*'Finding Race Conditions in Erlang with QuickCheck and PULSE'* by Claessen et al. (ICFP 2009)](https://smallbone.se/papers/finding-race-conditions.pdf) -- along with a scheduler and a process visualizer
  - *'Testing a Database for Race Conditions with QuickCheck'* by Hughes and Bolinder (Erlang 2011)
 
