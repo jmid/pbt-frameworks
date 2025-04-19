@@ -104,7 +104,10 @@ Framework functionality
 Background:
 -----------
 
-The term *property-based testing* seems to originate from [*'Property-Based Testing; A New Approach to Testing for Assurance'* by Fink and Bishop (SE Notes 1997)](http://nob.cs.ucdavis.edu/~bishop/papers/1997-sen/pbt.pdf).
+The term *property-based testing* seems to originate from [*'Towards a Property-based Testing Environment with Applications to Security-Critical
+Software'* by Fink, Ko, Archer, and Levitt (Irvine Software Symposium, 1994)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0c9dbe7b54d1a2b2db5103e707e8f6b23e6818b2).
+It was later the topic of Fink's 1995 UC Davis PhD dissertation *'Discovering security and safety flaws using property-based testing'* and the paper
+[*'Property-Based Testing; A New Approach to Testing for Assurance'* by Fink and Bishop (SE Notes 1997)](http://nob.cs.ucdavis.edu/~bishop/papers/1997-sen/pbt.pdf).
 The approach was popularized as an embedded domain-specific language in [*'QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs'* by Claessen and Hughes (ICFP 2000)](http://www.eecs.northwestern.edu/%7Erobby/courses/395-495-2009-fall/quick.pdf) which inspired ports to many other languages.
 
 **Integrated shrinking** is explained in more detail in
