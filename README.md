@@ -122,7 +122,7 @@ The approach was popularized as an embedded domain-specific language in [*'Quick
 
 **State machines** to test protocols and systems with state are described in
  - [*'Testing reactive systems with GAST'* by Koopman and Plasmeijer (TFP 2003, revised 2005)](https://repository.ubn.ru.nl/bitstream/handle/2066/60573/60573.pdf?sequence=1) - which describes a model-based framework for Clean's Gast library
- - [*'Testing Telecoms Software with Quviq QuickCheck'* Arts, Hughes, and Johansson (Erlang 2006)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf) - which describes Erlang's first `eqc_commands` module
+ - [*'Testing Telecoms Software with Quviq QuickCheck'* Arts, Hughes, Johansson, and Wiger (Erlang 2006)](https://www.quviq.com/wp-content/uploads/erlang001-arts.pdf) - which describes Erlang's first `eqc_commands` module
  - [*'QuickCheck Testing for Fun and Profit'* by Hughes (PADL 2007)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5ae25681ff881430797268c5787d7d9ee6cf542c)  describes a later revision
  - [the API documentation of Quviq's latest (commercial) version](http://quviq.com/documentation/eqc/)
  - [*'A Note on State-Machine Frameworks for Property-Based Testing'*](https://janmidtgaard.dk/quickcheck/stmnote.pdf) - a tutorial which reconstructs `qcstm` for OCaml
